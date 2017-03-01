@@ -32,16 +32,25 @@
 </head>
 
 <body>
+  <!-- Navigation -->
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>BKPA</a>
-            </li>
-            <li>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+         <li>
                 <a href="#about" onclick=$("#menu-close").click();>About Us</a>
             </li>
             <li>
@@ -71,8 +80,58 @@
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
             </li>
-        </ul>
-    </nav>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input class="form-control" placeholder="Search" type="text">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <!-- Navigation -->
+   <!--  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+   <nav id="sidebar-wrapper">
+       <ul class="sidebar-nav">
+           <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+           <li class="sidebar-brand">
+               <a href="#top" onclick=$("#menu-close").click();>BKPA</a>
+           </li>
+           <li>
+               <a href="#about" onclick=$("#menu-close").click();>About Us</a>
+           </li>
+           <li>
+               <a href="#events" onclick=$("#menu-close").click();>Events</a>
+           </li>
+           <li>
+               <a href="#photos" onclick=$("#menu-close").click();>Photos</a>
+           </li>
+           <li>
+               <a href="#committee" onclick=$("#menu-close").click();>Committee</a>
+           </li>
+           <li>
+               <a href="#bhc" onclick=$("#menu-close").click();>Heritage Class</a>
+           </li>
+           <li>
+               <a href="#emag" onclick=$("#menu-close").click();>eMagazine</a>
+           </li>
+           <li>
+               <a href="#members" onclick=$("#menu-close").click();>Members</a>
+           </li>
+           <li>
+               <a href="#sponsors" onclick=$("#menu-close").click();>Sponsors</a>
+           </li>
+           <li>
+               <a href="#other" onclick=$("#menu-close").click();>Other</a>
+           </li>
+           <li>
+               <a href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
+           </li>
+       </ul>
+   </nav> -->
 
     <!-- Header -->
     <header id="top" class="header events">
@@ -358,7 +417,7 @@ Subject Line should read – “Program Abroad in Kolkata”.<br/>
         <!-- /.container -->
 </section>
 
-<section id="Sponsors" class="services bg-info">
+<section id="sponsors" class="services bg-info">
         <div class="container">
             <div class="row text-center">
              <div id=''>
@@ -389,7 +448,7 @@ Contact <a> events@bkpa.org</a>
         <!-- /.container -->
 </section>
 
-<section id="Members" class="services">
+<section id="members" class="services">
         <div class="container">
             <div class="row text-center">
             <div id=''>
@@ -415,7 +474,7 @@ Volunteer with Poets Foundation, and Mother Teresa’s Missionaries of Charity, 
         <!-- /.container -->
 </section>
 
-<section id="Other" class="services bg-info">
+<section id="other" class="services bg-info">
         <div class="container">
             <div class="row text-center">
             <div id=''>

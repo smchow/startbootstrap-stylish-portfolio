@@ -144,6 +144,13 @@ hr.small {
     transition: all 0.4s ease 0s;
 }
 
+nav{
+    width: 100%;
+    
+    position: fixed;
+
+}
+
 .toggle {
     margin: 5px 5px 0 0;
 }
