@@ -16,7 +16,16 @@ body {
     font-family: 'Architects Daughter', cursive, "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.bg-bright{
+    //background-color: red;
+    width: 100%;
+    font:red;
+    font-weight: 200;
+}
+
+
 .text-vertical-center {
+    color: red;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -27,6 +36,12 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+}
+
+*{
+    color: darkblue;
+        font-size: 16px;
+    font-weight: 300;
 }
 
 /* Custom Button Styles */
@@ -161,8 +176,9 @@ nav{
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 50%;
     background: url(../images/bg.png) no-repeat center center scroll;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

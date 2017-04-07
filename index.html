@@ -33,111 +33,90 @@
 
 <body>
   <!-- Navigation -->
+  <!--  <div class="navbar-header">
+         <a href="../" class="navbar-brand">Bootswatch</a>
+         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <div class="navbar-collapse collapse" id="navbar-main">
+         <ul class="nav navbar-nav"> -->
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top ">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#navbar-main">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+     
+      <a href="#top" class="btn btn-dark btn-lg">Welcome</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse " id="navbar-main">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        
          <li>
-                <a href="#about" onclick=$("#menu-close").click();>About Us</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#about" onclick=$("#menu-close").click();>About Us</a>
             </li>
             <li>
-                <a href="#events" onclick=$("#menu-close").click();>Events</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#events" onclick=$("#menu-close").click();>Events</a>
             </li>
             <!-- <li>
                 <a href="#photos" onclick=$("#menu-close").click();>Photos</a>
             </li> -->
-            <li>
-                <a href="#committee" onclick=$("#menu-close").click();>Committee</a>
+             <li>
+                <a  data-toggle="collapse" data-target=".navbar-collapse" href="#president" onclick=$("#menu-close").click();>President's Corner</a>
             </li>
             <li>
-                <a href="#bhc" onclick=$("#menu-close").click();>Heritage Class</a>
+                <a  data-toggle="collapse" data-target=".navbar-collapse" href="#committee" onclick=$("#menu-close").click();>Committee</a>
             </li>
             <li>
-                <a href="#emag" onclick=$("#menu-close").click();>eMagazine</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#bhc" onclick=$("#menu-close").click();>Heritage Class</a>
             </li>
             <li>
-                <a href="#members" onclick=$("#menu-close").click();>Members</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#emag" onclick=$("#menu-close").click();>eMagazine</a>
             </li>
             <li>
-                <a href="#sponsors" onclick=$("#menu-close").click();>Sponsors</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#members" onclick=$("#menu-close").click();>Members</a>
             </li>
             <li>
-                <a href="#other" onclick=$("#menu-close").click();>Other</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#sponsors" onclick=$("#menu-close").click();>Sponsors</a>
+            </li>
+
+            <!-- <li>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#ProgramAbroad" onclick=$("#menu-close").click();>Program <br/>Abroad</a>
+            </li> -->
+            <li>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#other" onclick=$("#menu-close").click();>Other</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
+                <a data-toggle="collapse" data-target=".navbar-collapse" href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
             </li>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input class="form-control" placeholder="Search" type="text">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
+
+     <!--  <form class="navbar-form navbar-left" role="search">
+       <div class="form-group">
+         <input class="form-control" placeholder="Search" type="text">
+       </div>
+       <button type="submit" class="btn btn-default">Submit</button>
+     </form> -->
     </div>
   </div>
 </nav>
 
-    <!-- Navigation -->
-   <!--  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-   <nav id="sidebar-wrapper">
-       <ul class="sidebar-nav">
-           <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-           <li class="sidebar-brand">
-               <a href="#top" onclick=$("#menu-close").click();>BKPA</a>
-           </li>
-           <li>
-               <a href="#about" onclick=$("#menu-close").click();>About Us</a>
-           </li>
-           <li>
-               <a href="#events" onclick=$("#menu-close").click();>Events</a>
-           </li>
-           <li>
-               <a href="#photos" onclick=$("#menu-close").click();>Photos</a>
-           </li>
-           <li>
-               <a href="#committee" onclick=$("#menu-close").click();>Committee</a>
-           </li>
-           <li>
-               <a href="#bhc" onclick=$("#menu-close").click();>Heritage Class</a>
-           </li>
-           <li>
-               <a href="#emag" onclick=$("#menu-close").click();>eMagazine</a>
-           </li>
-           <li>
-               <a href="#members" onclick=$("#menu-close").click();>Members</a>
-           </li>
-           <li>
-               <a href="#sponsors" onclick=$("#menu-close").click();>Sponsors</a>
-           </li>
-           <li>
-               <a href="#other" onclick=$("#menu-close").click();>Other</a>
-           </li>
-           <li>
-               <a href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
-           </li>
-       </ul>
-   </nav> -->
-
+    
     <!-- Header -->
     <header id="top" class="header events">
+
         <div class="text-vertical-center">
-         <a href="#about" class="btn btn-dark btn-lg">Welcome to BKPA</a>
-            
+         
+            <br/><br/><br/><br/><br/><br/><br/><br>  <br/><br/><br/><br/><br/><br/><br/><br>  <br/><br/>
              <ul class="list-inline">
                         <li>
                             <a href="https://www.facebook.com/bkpa.usa"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
@@ -151,8 +130,9 @@
                             <a href="https://www.google.com/calendar/embed?src=bkpainfo%40gmail.com&ctz=America/New_York"><i class="fa fa-calendar fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
+                        
            
-            <br/><br/><br/><br/><br/><br/><br/><br>
+            <!-- <br/><br/><br/><br/><br/><br/><br/><br> -->
         </div>
     </header>
 
@@ -168,7 +148,7 @@ This club gives Bengali Kids the opportunity to have a never ending learning exp
 
 Our past highlights include performing at NABC 2010 in Atlantic City, Milan Mela 2012, UTSOV's Durga Puja, Milan Mela 2014, Princeton Public Library 2015 and Asian American Heritage Festival 2016. In addition, we participate in both domestic and international charity causes such as March of Dimes Walk and Mother Teresa’s Missionaries of Charity.<br/><br/>
 
-Kids are the base, foundation, and strength of this organization. BKPA was founded ten years ago by a small group of Bengali kids and has grown ever since. Please come to one of our events or weekly Bangla Classes and join in on the fun!</p>
+Kids are the base, foundation, and strength of this organization. BKPA was founded twelve years ago by a small group of Bengali kids and has grown ever since. Please come to one of our events or weekly Bangla Classes and join in on the fun!</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -187,36 +167,31 @@ Kids are the base, foundation, and strength of this organization. BKPA was found
         /.container
 </section> -->
 
-<section id="events" class="services">
+<section id="events" class="about bg-info">
         <div class="container">
             <div class="row text-center">
-                        <div id=''>
+                       
             <h2>Upcoming events <br/></h2>
             <br/>
             <p> 
             <a target="_blank" href="https://www.google.com/calendar/embed?src=bkpainfo%40gmail.com&ctz=America/New_York"> Click here </a> to see our calender of events. Here are some of the upcoming events: <br/><br/>
     
-            <a target="_blank" href="contentFiles/BKPA_SaraswatiPujaFlyer_2017"><b>Saraswati Puja </b></a>  - Saturday, Feb 11 Ananda Mandir <br/> <br/>
 
-            <b>Charitable Walk </b> - TBD <br/> <br/>
-
-            <b>Noboborsho Lunch </b> - Sunday, April 16 - Palace of Asia<br/> <br/>
+            <b>Noboborsho Lunch </b> - Sunday, April 16 -  Crown of India<br/> <br/>
 
             <b>Founders Day </b> - Saturday, May 7, Plainsboro<br/> <br/>
 
             <b>Mothers’ Day </b> -Saturday, May 13, Plainsboro  <br/> <br/> 
 
             <b>Fathers’ Day  </b> - Saturday, June 17, Plainsboro<br/> <br/>
+            <b>Summer Outing </b> - Saturday, July 22 - Ridgely, NY <br/> <br/>
+            <b>Picnic </b> - Sunday, August 20 , Mercer County Park<br/> <br/>
 
-            <b>Picnic </b> - Sunday, August 20 or 27, Mercer County Park<br/> <br/>
+            <b>Charitable Walk </b> - Sunday, September 24 - Princeton <br/> <br/>
 
-            <b>Summer Outing </b> - TBD <br/> <br/>
+            <b>Kali Puja </b> - Saturday, Oct 21  - Tagore Hall at Ananda Mandir <br/> <br/>
 
-            <b>Kali Puja </b> - Saturday, Oct 21 or 28 <br/> <br/>
-
-            <b>Winter Holiday Trip</b> - Saturday, December 30<br/> <br/>
-      
-      
+            <b>Winter Holiday Trip</b> - Saturday, December 30 - Bucks County, PA<br/> <br/>
       
                
 
@@ -230,6 +205,7 @@ Kids are the base, foundation, and strength of this organization. BKPA was found
              
                 
              <p>  
+                <a target="_blank" href="contentFiles/BKPA_SaraswatiPujaFlyer_2017"><b>Saraswati Puja </b></a>  - Saturday, Feb 11 Ananda Mandir <br/> <br/>
                 <b> Holiday Party</b> Saturday, December 17th  <br/> <br/>
              <b> Broadway Show Outing</b> - Sunday, December 4th<br/> <br/>
              
@@ -239,8 +215,6 @@ Kids are the base, foundation, and strength of this organization. BKPA was found
               <b> American Asian Heritage Day</b> Sunday, May 15<br/> <br/>
             
                <b> March of Dimes Walk</b> Sunday, May 1<br/> <br/>
- <b>  <a href="https://drive.google.com/folderview?id=0B138m8xCImjZZ2VNTHdWbUlnZE0&usp=sharing" target="_blank">
-  Noboborsho Lunch</a></b> Saturday, April 16<br/> <br/>
  
             </p>
             </div>
@@ -250,19 +224,64 @@ Kids are the base, foundation, and strength of this organization. BKPA was found
         <!-- /.container -->
 </section>
 
+<section id="president" class="services ">
+<!-- <div id='PresCorner'>
+<div class="row text-left  ">
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8"> <h2>The President's Corner</h2>
+             <br/></div>
+  
+</div> -->
+ <div class="container">
+            <div class="row text-center">
+                       
+            <h2 >The President's Corner <br/><br/></h2>
+            </div>
+<div class="row">
+   <div class="col-md-1"></div>
+  <div class="col-md-4"><figure class="centered text-center"><img src="images/Pres.jpg" width="400" height="266"  alt=""/>
+      <figcaption>BKPA Presidents for 2017</figcaption>
+    </figure> </div>
+    <div class="col-md-1"></div>
+  <div class="col-md-5">
+Welcome message from the Co-Presidents 
+<br/><br/>
+Hello everyone!<br/><br/>
+ 
+We are looking forward to a year filled with fun and learning . If you have any ideas for Bangla Class or Group Events, please send us an email!
+​<br/><br/>
+Your Co-Presidents,<br/>
 
-<section id="committee" class="services bg-primary">
+​​Mitali and Sahil</div>
+  
+</div>
+<div class=".col-md-4">
+            
+      
+        <!-- /.container -->
+</div>
+<div class=".col-md-8">
+ 
+</div>
+</div>
+</section>
+
+
+
+<section id="committee" class="services bg-info">
         <div class="container">
+        <div class="row text-center">
+                       
+             <h2>Meet our committee members</h2> <br>
+            </div>
+<div class="row">
             <div class="row text-left">
-            <div id='PresCorner'>
-             <h2>The President's Corner</h2>
-             <br/>
+            
                         
     
 <table><tr>
- <td> <figure class="centered"><img src="images/Pres.jpg" width="400" height="266"  alt=""/>
-      <figcaption>BKPA Presidents for 2016</figcaption>
-    </figure> </td>
+ 
 
 
 <!--td>
@@ -294,7 +313,7 @@ Kids are the base, foundation, and strength of this organization. BKPA was found
         
         
                 <div id=''>
-        <h2>Meet our committee members</h2>
+       
         <br/>
     
                       
@@ -302,12 +321,11 @@ Kids are the base, foundation, and strength of this organization. BKPA was found
       <figcaption>Princeton Public Library - September 2015</figcaption>
     </figure-->
                         <Table>
-                    <tr><td width=230 ><p><b>Co-Presidents:</b></p></td><td><p>Sanjukta Mahata,<br/> Sohan Pramanik</p></td></tr>
-                    <tr><td><p><b>Vice Presidents:</b></p></td><td><p>Sahil Banerjee, <br/>Mitali Chowdhury,<br/>
-Amisha Mukhopadhyay<br/>  </p></td></tr>
-                    <tr><td><p><b>Executives :</b></p></td><td><p> Sahil Banerjee, Mitali Chowdhury, Sanjukta Mahata, <br/>  Amisha Mukhopadhyay, Sohan Pramanik</p></td></tr>
+                    <tr><td width=230 ><p><b>Co-Presidents:</b></p></td><td><p>Sahil Banerjee, <br/>Mitali Chowdhury,<br/></p></td></tr>
+                    <tr><td><p><b>Vice Presidents:</b></p></td><td><p>Sanjukta Mahata,<br/> Sohan Pramanik, <br/> </p></td></tr>
+                    <tr><td><p><b>Executives :</b></p></td><td><p> Sahil Banerjee, Mitali Chowdhury,<br/> Sanjukta Mahata, Sohan Pramanik</p></td></tr>
                     <tr><td><p><b>Officers:</b></p></td><td><p>Anisha Das, Anushka Purkayastha</p></td></tr>
-                    <tr><td><p><b>Staff:</b></p></td><td><p>Aabir Banerjee, Shalin Banerjee, Reyan Bhattacharjee,<br/>Anish Bhattacharya, Pratyush Chakraborty,<br/> Ishani Chowdhury, Ayan Das, Bipasha Mazumdar, <br/> Biswajoy Mazumdar, Saraswati Mookerjee, <br/> Rajanya Ghosh, Ayushee Mukhopadhyay, <br/>Navya Mukhopadhyay, Nidhi Pramanik, <br/>Akansha Purkayastha, Saesha Purkayastha, <br/>Swarnab Roy, Arush Sanbui </p></td></tr>
+                    <tr><td><p><b>Staff:</b></p></td><td><p> Shalin Banerjee, Reyan Bhattacharjee,<br/>Anish Bhattacharya, Pratyush Chakraborty,<br/> Ishani Chowdhury, Ayan Das, Bipasha Mazumdar, <br/> Biswajoy Mazumdar, Saraswati Mookerjee, <br/> Ayushee Mukhopadhyay, Nidhi Pramanik, <br/>Akansha Purkayastha, Saesha Purkayastha, <br/>Swarnab Roy, Arush Sanbui </p></td></tr>
                     <!--tr><td><p><b>News Update:</b></p></td><td><p>Atiksh, Pratyoy</p></td></tr>
                     <tr><td><p><b>Community Work Coordinators:</b></p></td><td><p>Arnob, Pia, Roop</p></td></tr>
                     <tr><td><p><b>Official Photographers:</b></p></td><td><p>Ved, Ayan</p></td></tr>
@@ -315,7 +333,7 @@ Amisha Mukhopadhyay<br/>  </p></td></tr>
                     <tr><td><p><b>Cultural Event Coordinator:</b></p></td><td><p>Prajna Karmaker</p></td></tr>
                     
                     <tr><td><p><b>Game Planner:</b></p></td><td><p>Atiksh Bhattacharya</p></td></tr-->
-                    <tr><td><p><b>Assistants :</b></p></td><td><p>Aarohi Banerjee, Amolika Chatterjee,<br/> Raima Bhattacharjee, Mritsha Saha,<br/> Raj Saha, Rishi Sanbui  </p></td></tr>
+                    <tr><td><p><b>Assistants :</b></p></td><td><p>Amolika Chatterjee, Raima Bhattacharjee, <br/> Mia Saha, Mritsha Saha, Raj Saha, Rishi Sanbui  </p></td></tr>
                     
         </table>
         
@@ -362,35 +380,9 @@ December 10, 17<br/> -->
 </section>
 
 
-<section id="ProgramAbroad" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-             <div id=''>
-           <h2> Program Abroad in Kolkata for 
-High School Students </h2>
-<br/>
-
-<p>
-During your next trip to Kolkata, we can help you achieve experiences of a lifetime in two different areas: <br/> <br/>
-
-<b>Charitable Work </b> – Kolkata is a great place for those who are interested in giving back to the society by volunteering at some unique places and earning meaningful community service hours. <br/> <br/>
-
-<b>Physician Shadowing Program </b> – Shadow physicians at prestigious research hospitals in Kolkata.  Observing qualified surgeons, doctors, and nurses in action throughout different parts of the hospital will give you a unique insight into medicine practiced in developing countries. This BKPA pioneered program will definitely give you a competitive edge on your college application.  <br/> <br/>
-
-Each program requires at least 2 weeks. We will custom design your program based on your needs and requirements! <br/>
-
-If you are interested, write to bkpa@bkpa.org  <br/>
-Subject Line should read – “Program Abroad in Kolkata”.<br/> 
-
-           </p></div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-</section>
 
 
-<section id="emag" class="services">
+<section id="emag" class="services  bg-info">
         <div class="container">
             <div class="row text-center">
             <div id='EMag'>
@@ -411,6 +403,31 @@ Subject Line should read – “Program Abroad in Kolkata”.<br/>
                 <p><a href="Media/Magazines/Summer2006.pdf" target="_blank">Summer 2006</a></p>
                 <p><a href="Media/Magazines/spring2006.pdf" target="_blank">Spring 2006</a></p>
                 <p><a href="Media/Magazines/winter2006.pdf" target="_blank">Winter 2006</a></p></div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+</section>
+<section id="members" class="services">
+        <div class="container">
+            <div class="row text-center">
+            <div id=''>
+ <h2> Our Members </h2>
+ <br/>
+ <p>The Bengali Kids of Princeton Area (BKPA) is a unique organization for kids between the ages of 5 to 17. Members enjoy learning about the rich Bengali culture, heritage, and language. By becoming a member of this organization, kids will learn leadership skills, give back to the community, and take part in the following events. <br/><br/>
+
+<b>Bengali Heritage Class: </b> every Saturday from September through June<br/><br/>
+
+<b>Annual Events:</b> Saraswati Pujo, Bengali Heritage Day, Summer Picnic, Bijoya Sammelani, Holiday Play Outing <br/><br/>
+
+<b>Charitable Work:</b> March of Dimes Walk; Performances at Local Nursing Homes in Princeton, NJ; 
+Volunteer with Poets Foundation, and Mother Teresa’s Missionaries of Charity, both in Calcutta, India.  <br/><br/>
+
+<b>Outings:</b> Full and half day outings during Spring and Summer breaks <br/>
+
+
+ </p>
+ </div>
             </div>
             <!-- /.row -->
         </div>
@@ -448,33 +465,38 @@ Contact <a> events@bkpa.org</a>
         <!-- /.container -->
 </section>
 
-<section id="members" class="services">
-        <div class="container">
+<section id="ProgramAbroad" class="services bg-info">
+    
+</section>
+
+
+
+
+<section id="other" class="services ">
+    <div class="container">
             <div class="row text-center">
-            <div id=''>
- <h2> Our Members </h2>
- <br/>
- <p>The Bengali Kids of Princeton Area (BKPA) is a unique organization for kids between the ages of 5 to 17. Members enjoy learning about the rich Bengali culture, heritage, and language. By becoming a member of this organization, kids will learn leadership skills, give back to the community, and take part in the following events. <br/><br/>
+             <div id=''>
+           <h2> Program Abroad in Kolkata for 
+High School Students </h2>
+<br/>
 
-<b>Bengali Heritage Class: </b> every Saturday from September through June<br/><br/>
+<p>
+During your next trip to Kolkata, we can help you achieve experiences of a lifetime in two different areas: <br/> <br/>
 
-<b>Annual Events:</b> Saraswati Pujo, Bengali Heritage Day, Summer Picnic, Bijoya Sammelani, Holiday Play Outing <br/><br/>
+<b>Charitable Work </b> – Kolkata is a great place for those who are interested in giving back to the society by volunteering at some unique places and earning meaningful community service hours. <br/> <br/>
 
-<b>Charitable Work:</b> March of Dimes Walk; Performances at Local Nursing Homes in Princeton, NJ; 
-Volunteer with Poets Foundation, and Mother Teresa’s Missionaries of Charity, both in Calcutta, India.  <br/><br/>
+<b>Physician Shadowing Program </b> – Shadow physicians at prestigious research hospitals in Kolkata.  Observing qualified surgeons, doctors, and nurses in action throughout different parts of the hospital will give you a unique insight into medicine practiced in developing countries. This BKPA pioneered program will definitely give you a competitive edge on your college application.  <br/> <br/>
 
-<b>Outings:</b> Full and half day outings during Spring and Summer breaks <br/>
+Each program requires at least 2 weeks. We will custom design your program based on your needs and requirements! <br/>
 
+If you are interested, write to bkpa@bkpa.org  <br/>
+Subject Line should read – “Program Abroad in Kolkata”.<br/> 
 
- </p>
- </div>
+           </p></div>
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
-</section>
-
-<section id="other" class="services bg-info">
         <div class="container">
             <div class="row text-center">
             <div id=''>
@@ -532,160 +554,9 @@ Shantiniketan & VISVA-BHARATI<br/>
         <!-- /.container -->
 </section>
 
-<!-- 
 
-
-    Services
-    The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    /.row (nested)
-                </div>
-                /.col-lg-10
-            </div>
-            /.row
-        </div>
-        /.container
-    </section>
-
-    Callout
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
-
-    Portfolio
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    /.row (nested)
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                /.col-lg-10
-            </div>
-            /.row
-        </div>
-        /.container
-    </section>
-
-    Call to Action
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    Map
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
- -->
-    <!-- Footer -->
     <footer>
-        <div class="container">
+        <div id="contact" class="container bg-info">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                  <h2> Contact Us </h2>
@@ -733,7 +604,7 @@ General Information - <a href="mailto:BKPA@bkpa.org" target="_top"> BKPA@bkpa.or
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy;BKPA 2016</p>
+                    <p class="text-muted">Copyright &copy;BKPA 2017</p>
                 </div>
             </div>
         </div>
@@ -748,6 +619,14 @@ General Information - <a href="mailto:BKPA@bkpa.org" target="_top"> BKPA@bkpa.or
 
     <!-- Custom Theme JavaScript -->
     <script>
+   $('.nav > a').click(function(){
+    $('.nav-collapse').collapse('hide');
+});
+   $(document).on('click','.navbar-collapse',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
@@ -798,7 +677,7 @@ General Information - <a href="mailto:BKPA@bkpa.org" target="_top"> BKPA@bkpa.or
             }
         }
     });
-    // Disable Google Maps scrolling
+   /* // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
     // Disable scroll zooming and bind back the click event
     var onMapMouseleaveHandler = function(event) {
@@ -817,7 +696,7 @@ General Information - <a href="mailto:BKPA@bkpa.org" target="_top"> BKPA@bkpa.or
             that.on('mouseleave', onMapMouseleaveHandler);
         }
         // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
+    $('.map').on('click', onMapClickHandler);*/
     </script>
 
 </body>
