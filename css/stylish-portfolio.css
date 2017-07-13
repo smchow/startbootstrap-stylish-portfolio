@@ -184,6 +184,19 @@ nav{
     background-size: cover;
     -o-background-size: cover;
 }
+/* For width smaller than 400px: */
+
+
+/* For width 400px and larger: */
+@media only screen and (max-width: 600px) {
+    .header { 
+        background: url(../images/BKPALogo.png) center ;
+
+        margin:0px;
+        border:10px;
+        padding: 60px;
+    }
+}
 
 /* About */
 
