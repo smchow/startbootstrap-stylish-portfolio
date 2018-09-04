@@ -189,11 +189,12 @@ nav{
 
 /* For width 400px and larger: */
 @media only screen and (max-width: 600px) {
-    /* .header { 
+    .header { 
+
         margin:0px;
         border:10px;
         padding: 60px;
-    } */
+    } 
 }
 
 /* About */
@@ -257,14 +258,14 @@ nav{
 /* Map */
 
 .map {
-    height: 500px;
+    height: 200px;
 }
 
-@media(max-width:768px) {
+ @media(max-width:768px) {
     .map {
-        height: 75%;
+        height: 50%;
     }
-}
+} 
 
 .map iframe {
     pointer-events: none;
@@ -281,4 +282,16 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+
+.img-header {
+    background: url('../images/shloka.jpg') no-repeat center center scroll;
+    height: 450px;
+    margin: 0 auto;
+}
+
+p {
+    word-wrap:break-word;
+    margin: 5px;
 }
