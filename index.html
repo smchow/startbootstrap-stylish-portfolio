@@ -31,7 +31,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+        
+    <style>
+    .subpage:nth-child(odd) {
+        background: #d9edf7;
+    }
+    </style>
 </head>
 
 <body>
@@ -71,9 +76,9 @@
                     <li>
                         <a data-toggle="collapse" data-target=".navbar-collapse" href="#bhc" onclick=$( "#menu-close").click();>Classes</a>
                     </li>
-                    <!-- <li>
-                        <a data-toggle="collapse" data-target=".navbar-collapse" href="#" onclick=$( "#menu-close").click();>BKPA Gives</a>
-                    </li> -->
+                    <li>
+                        <a data-toggle="collapse" data-target=".navbar-collapse" href="#bkpaGives" onclick=$( "#menu-close").click();>BKPA Gives</a>
+                    </li>
                     <li>
                         <a data-toggle="collapse" data-target=".navbar-collapse" href="#emag" onclick=$( "#menu-close").click();>eMagazine</a>
                     </li>
@@ -99,7 +104,7 @@
         </div>
     </nav>
     <!-- About -->
-    <section id="about" class="about">
+    <section id="about" class="about subpage">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -152,124 +157,143 @@
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-center"><b>Educational</b></div>
+                    <div class="text-center">
+                        <b>Educational</b>
+                    </div>
                     <ul>
                         <li>Weekly Bengali language, culture, and heritage classes</li>
                         <li>Summer internship placement</li>
                         <li>Physician shadowing program</li>
                         <li>Field trips</li>
                     </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="text-center"><b>Cultural</b></div>
-                        <ul>
-                            <li>Saraswati Puja</li>
-                            <li>Bengali New Year</li>
-                            <li>Kali Puja</li>
-                            <li>December holiday gathering</li>
-                            <li>Other performances and events</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="text-center"><b>Literary</b></div>
-                        <ul>
-                            <li>Annual Literary Magazine</li>
-                            <li>Book Publishing</li>
-                            <li>Workbooks and event program texts</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="text-center"><b>Charitable</b></div>
-                        <ul>
-                            <li>BKPA Gives Programs</li>
-                            <li>March of Dimes and Annual Autism Speaks Walk</li>
-                            <li>Poets Foundation Academic Scholarships Fund</li>
-                            <li>Performances at local assisted living facilities</li>
-                        </ul>
-                    </div>
                 </div>
-                <br><br>
-                <div class="text-center"><b>Lifetime of Learning</b>
-                <p>BKPA emphasizes social and life skills alongside scholarship. </p></div>
-                <br>
-                    <div class="col-md-6">
-                    <div class="text-center"><b>Pre-School and Elementary</b></div>
-                        <ul>
-                            <li>Character Building
-                                <ul>
-                                    <li>Respect</li>
-                                    <li>Social Skills</li>
-                                    <li>Tenacity</li>
-                                    <li>Self Discipline</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="text-center"><b>Middle School</b></div>
-                        <ul>
-                            <li>Practical Skills
-                                <ul>
-                                    <li>Teamwork</li>
-                                    <li>Public Speaking</li>
-                                    <li>Organizational Skills</li>
-                                </ul>
-                            </li>
-                        </ul>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <b>Cultural</b>
                     </div>
-                    <div class="col-md-6">
-                        <div class="text-center"><b>High School</b></div>
-                        <ul>
-                            <li>Leadership Skills
-                                <ul>
-                                    <li>Organizing Events</li>
-                                    <li>Taking Initiative</li>
-                                    <li>Leadership Roles within BKPA</li>
-                                    <li>Networking</li>
-                                </ul>
-                            </li>
-                            <li>Community Service
-                                <ul>
-                                    <li>Organizing Charitable Programs</li>
-                                    <li>Participate in Community Services</li>
-                                </ul>
-                            </li>
-                            <li>Summer Internships</li>
-                            <li><a href="#ProgramAbroad">Personalized Opportunities Abroad</a></li>
-                        </ul>
+                    <ul>
+                        <li>Saraswati Puja</li>
+                        <li>Bengali New Year</li>
+                        <li>Kali Puja</li>
+                        <li>December holiday gathering</li>
+                        <li>Other performances and events</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <b>Literary</b>
                     </div>
-                    <!--
+                    <ul>
+                        <li>Annual Literary Magazine</li>
+                        <li>Book Publishing</li>
+                        <li>Workbooks and event program texts</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <b>Charitable</b>
+                    </div>
+                    <ul>
+                        <li>BKPA Gives Programs</li>
+                        <li>March of Dimes and Annual Autism Speaks Walk</li>
+                        <li>Poets Foundation Academic Scholarships Fund</li>
+                        <li>Performances at local assisted living facilities</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="text-center">
+                <b>Lifetime of Learning</b>
+                <p>BKPA emphasizes social and life skills alongside scholarship. </p>
+            </div>
+            <br>
+            <div class="col-md-6">
+                <div class="text-center">
+                    <b>Pre-School and Elementary</b>
+                </div>
+                <ul>
+                    <li>Character Building
+                        <ul>
+                            <li>Respect</li>
+                            <li>Social Skills</li>
+                            <li>Tenacity</li>
+                            <li>Self Discipline</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <b>Middle School</b>
+                </div>
+                <ul>
+                    <li>Practical Skills
+                        <ul>
+                            <li>Teamwork</li>
+                            <li>Public Speaking</li>
+                            <li>Organizational Skills</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="text-center">
+                    <b>High School</b>
+                </div>
+                <ul>
+                    <li>Leadership Skills
+                        <ul>
+                            <li>Organizing Events</li>
+                            <li>Taking Initiative</li>
+                            <li>Leadership Roles within BKPA</li>
+                            <li>Networking</li>
+                        </ul>
+                    </li>
+                    <li>Community Service
+                        <ul>
+                            <li>Organizing Charitable Programs</li>
+                            <li>Participate in Community Services</li>
+                        </ul>
+                    </li>
+                    <li>Summer Internships</li>
+                    <li>
+                        <a href="#ProgramAbroad">Personalized Opportunities Abroad</a>
+                    </li>
+                </ul>
+            </div>
+            <!--
                         <br/>
                         <a href="BKPA_2018 Brochure.pdf">Brochure</a>
                         <br/>
                         <br/>-->
-                </div>
-            </div>
+        </div>
+        </div>
         </div>
     </section>
 
-    <section id="highlights" class="about bg-info">
+    <section id="highlights" class="about subpage">
         <div class="container">
             <div class="row text-center">
-                    <h2>Highlights</h2>
-                    <p>Our past highlights include:</p>
-                    <br>
-                    <p><b>Cultural:</b>
-                    Performing at North American Bengali Conference (NABC) 2010 in Atlantic City, Milan Mela
-                    2012 and 2014, UTSOV&#39;s Durga Pujas, Princeton Public Library 2015, and the Asian American
-                    Heritage Festival 2016.</p>
-                    <br> 
-                    <p><b>Charitable:</b>
-                    BKPA members collected 72 pairs of kids shoes in 2013 and 86 pairs in 2017. These were
-                    distributed in a village in West Bengal by BKPA volunteers travelling with a mobile health clinic.
-                    We fund 12 academic scholarships every year via Poets Foundation. ₹2000 for middle
-                    school, ₹3000 for high school, and ₹4000 for college.
-                    Since 2017 we have gathered and delivered computers with up-to-date programs and software
-                    free of cost to young adults in need. This helps them pursue self-directed careers from their
-                    homes. In 2018 we also collected 14 computers that will be sent to classrooms in need.</p>
+                <h2>Highlights</h2>
+                <p>Our past highlights include:</p>
+                <br>
+                <p>
+                    <b>Cultural:</b>
+                    Performing at North American Bengali Conference (NABC) 2010 in Atlantic City, Milan Mela 2012 and 2014, UTSOV&#39;s Durga
+                    Pujas, Princeton Public Library 2015, and the Asian American Heritage Festival 2016.</p>
+                <br>
+                <p>
+                    <b>Charitable:</b>
+                    BKPA members collected 72 pairs of kids shoes in 2013 and 86 pairs in 2017. These were distributed in a village in West Bengal
+                    by BKPA volunteers travelling with a mobile health clinic. We fund 12 academic scholarships every year
+                    via Poets Foundation. ₹2000 for middle school, ₹3000 for high school, and ₹4000 for college. Since 2017
+                    we have gathered and delivered computers with up-to-date programs and software free of cost to young
+                    adults in need. This helps them pursue self-directed careers from their homes. In 2018 we also collected
+                    14 computers that will be sent to classrooms in need.</p>
             </div>
         </div>
     </section>
 
-    <section id="committee" class="services">
+    <section id="committee" class="services subpage">
         <div class="container">
             <div class="row text-center">
 
@@ -351,27 +375,27 @@
                             <br/>
                             <br/>
                             <b>Officers:</b>
-                            <br/> Aabir Barerjee, Shalin Banerjee, 
-                            <br/> Pratyush Chakraborty, 
+                            <br/> Aabir Barerjee, Shalin Banerjee,
+                            <br/> Pratyush Chakraborty,
                             <br/> Sayan Shuvra Chakraborty,
                             <br/> Biswajoy Mazumdar, Arush Sanbui
                             <br/>
                             <br/>
                             <b>Staff:</b>
-                            <br/> Aarohi Banerjee, Anish Bhattacharya, 
-                            <br/> Amolika Chatterjee, Ishani Chowdhury, 
-                            <br/> Ayan Das, Arin Dutta, Krittika Dutta, 
-                            <br/> Arush Kundu, Bipasha Mazumdar, 
-                            <br/> Ayushee Mukhopadhyay, Atri Ojha, 
-                            <br/> Nidhi Pramanik, Akansha Purkayastha, 
-                            <br/> Udita Ray, Aaryaan Roy, Swarnab Roy, 
+                            <br/> Aarohi Banerjee, Anish Bhattacharya,
+                            <br/> Amolika Chatterjee, Ishani Chowdhury,
+                            <br/> Ayan Das, Arin Dutta, Krittika Dutta,
+                            <br/> Arush Kundu, Bipasha Mazumdar,
+                            <br/> Ayushee Mukhopadhyay, Atri Ojha,
+                            <br/> Nidhi Pramanik, Akansha Purkayastha,
+                            <br/> Udita Ray, Aaryaan Roy, Swarnab Roy,
                             <br/> Mia Saha, Raj Saha, Rishi Sanbui
                             <br/>
                             <br/>
                             <b>Assistants:</b>
                             <br/> Anika Bandyopadhyay, Anjelika Banerjee,
                             <br/> Agniv Chatterjee, Kavisha Dutta,
-                            <br/> Anjali Mukhopadhyay, Eshan Ojha, 
+                            <br/> Anjali Mukhopadhyay, Eshan Ojha,
                             <br/> Jason Roy
                             <br/>
                             <br/>
@@ -384,7 +408,7 @@
             </div>
     </section>
 
-    <section id="events" class="about bg-info">
+    <section id="events" class="about subpage">
         <div class="container">
             <div class="row text-center">
 
@@ -395,10 +419,12 @@
                     <b>Saraswati Puja </b>- February 10th, 2019
                     <br/>
                     <br/>
-                    <b>Bengali New Year Lunch </b>- April 14th, 2019 
+                    <b>Bengali New Year Lunch </b>- April 14th, 2019
                     <br/>
                     <br/>
-                    <b><a href="https://www.marchforbabies.org/EventInfo?EventID=20008">March of Dimes </a></b>- April 28th, 2019
+                    <b>
+                        <a href="https://www.marchforbabies.org/EventInfo?EventID=20008">March of Dimes </a>
+                    </b>- April 28th, 2019
                     <br>
                     <br>
                     <b>Spring Outing </b>- May, 2019
@@ -410,7 +436,9 @@
                     <b>Summer Picnic Outing </b>- August 25th, 2019
                     <br/>
                     <br/>
-                    <b><a href="http://act.autismspeaks.org/site/TR/Walk/NewJersey?fr_id=4403&pg=entry">Autism Speaks Walk </a></b>- October 13th, 2019
+                    <b>
+                        <a href="http://act.autismspeaks.org/site/TR/Walk/NewJersey?fr_id=4403&pg=entry">Autism Speaks Walk </a>
+                    </b>- October 13th, 2019
                     <br/>
                     <br/>
                     <b>Kali Puja </b>- October/November, 2019
@@ -427,16 +455,16 @@
                     <br>
                     <b>Service Trips </b>- 2019 Dates TBA
                     <br>
+                    <br> Our cultural events, such as Saraswati Puja and Noboborsho, feature performances by member students
+                    and guest artists, as well as food and short religious ceremonies for religious holidays.
                     <br>
-                    Our cultural events, such as Saraswati Puja and Noboborsho, feature performances by member
-                            students and guest artists, as well as food and short religious ceremonies for religious holidays.
-                            <br>
-                            <br>
-                            Charitable events such as the Autism Speaks Walk and March of Dimes are attended by
-                            member families, and material drives are ongoing throughout each year.
-                            <br>
-                            <br>
-                    <i>Follow us on <a href="https://www.facebook.com/bkpa.usa">Facebook</a> or email <a href="mailto:bkpa@bkpa.org">bkpa@bkpa.org</a> for more information</i>
+                    <br> Charitable events such as the Autism Speaks Walk and March of Dimes are attended by member families,
+                    and material drives are ongoing throughout each year.
+                    <br>
+                    <br>
+                    <i>Follow us on
+                        <a href="https://www.facebook.com/bkpa.usa">Facebook</a> or email
+                        <a href="mailto:bkpa@bkpa.org">bkpa@bkpa.org</a> for more information</i>
                 </p>
             </div>
         </div>
@@ -450,30 +478,28 @@
         </div>
     </section>
 
-    <section id="bhc" class="services ">
+    <section id="bhc" class="services subpage">
         <div class="container">
             <div class="row text-center">
                 <div id=''>
                     <h2>Classes and Meetings</h2>
                     <br/>
-                    <p>The Bengali Heritage Class (BHC) exposes students to our rich Bengali language,
-                            culture, and heritage, and helps them to learn the material in a FUN way. Adults and kids are
-                            welcome to join. Please see our <a target="_blank" href="contentFiles\Curriculum_2014.pdf">Curriculum</a> 
-                            for detailed information. This class opens doors and
-                            provides a never ending learning experience for those who are truly interested. Bengali
-                            Heritage Class meets every Saturday from 3:00 to 5:00 PM in Plainsboro, NJ.
-                            Join us for Spring Bengali Classes! (April 6-June 15)
-                            <br/>
+                    <p>The Bengali Heritage Class (BHC) exposes students to our rich Bengali language, culture, and heritage,
+                        and helps them to learn the material in a FUN way. Adults and kids are welcome to join. Please see
+                        our
+                        <a target="_blank" href="contentFiles\Curriculum_2014.pdf">Curriculum</a>
+                        for detailed information. This class opens doors and provides a never ending learning experience for those who are truly
+                        interested. Bengali Heritage Class meets every Saturday from 3:00 to 5:00 PM in Plainsboro, NJ. Join
+                        us for Spring Bengali Classes! (April 6-June 15)
+                        <br/>
                         <br/>
                         <a target="_blank" href="https://apm.activecommunities.com/plainsboronj/Activity_Search/bengali-heritage-class/4625">Join us for Spring Bengali Classes!</a>
                         <i>(April 6 - June 15)</i>
                         <br/>
-                        <br/>
-                            Chairwoman and Language Instructor Meena Dam teaches an additional class with more
-                            intense focus on language every other week in Bucks County, PA.
-                            We also have quarterly steering and financial meetings of all student leaders along with adult
-                            members and teachers.
-                        
+                        <br/> Chairwoman and Language Instructor Meena Dam teaches an additional class with more intense focus
+                        on language every other week in Bucks County, PA. We also have quarterly steering and financial meetings
+                        of all student leaders along with adult members and teachers.
+
                         <!--
                         <b>Class Schedule:</b>
                         <br/>
@@ -491,10 +517,113 @@
         </div>
     </section>
 
+    <section id="bkpaGives" class="about subpage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>BKPA Gives</h2>
+                    <p><br>
+                        BKPA Gives is the charitable branch of BKPA. It grew out of discussions among students and teachers at
+                        our weekly language and heritage classes. In these classes we learn about communities around the
+                        globe where Bengali is spoken, and students raised the idea of assisting those in need in these communities
+                        to their mentors and teachers. Events such as free performances in assisted living facilities and
+                        other venues, fundraising walks, and more operate in the USA. Our program “International Technology
+                        for Self Sufficiency” currently operates in India and Bangladesh, and “International Technology for
+                        Career Education” will be operational in a location to be announced soon, bringing computers to a
+                        school for adult career education.
+                        <br>
+                        <br> We also fund a growing number of scholarships in India through Poets Foundation, and donate clothes
+                        and shoes to kids and adults in need. If you would like to be involved in our technology and clothing
+                        drives, please contact
+                        <a href="bkpa@bkpa.org">bkpa@bkpa.org</a>.
+                        <br>
+                        <br> On BKPA member summer volunteer trips to orphanages in Kolkata, we met young adults who were too
+                        old to receive aid from area orphanages but still struggling to make a living on their own. Some
+                        of these individuals have disabilities that make it difficult for them to travel to daily jobs. So,
+                        the BKPA Gives International Technology for Self Sufficiency and International Technology for Career
+                        Education programs were born. We provide individuals in need with the materials and funds needed
+                        to use technology to broaden their education and create modern careers. These tools can also help
+                        connect recipients with both their local and global communities. Initial and annual check-ins both
+                        online and in person offer continued community and support between BKPA members and BKPA Gives program
+                        recipients. Since 2014 we have brought computers to seven people who can then support themselves
+                        and their families. On the local level, we perform in assisted living facilities, providing free
+                        entertainment and food to residents, and open all of our annual cultural event to the public so that
+                        they may learn with us about our culture, language, and heritage. Our language classes are open to
+                        all free of charge as well. Teachers and mentors volunteer their time, the only fee being to cover
+                        printing costs of the language textbook and workbook that we produce. We hope that this openness
+                        encourages dialogue between people from different cultures.
+                        <br>
+                        <br> An outline of what we do in each BKPA Gives program is below. We encourage members to take initiative
+                        and coordinate with individuals they meet in their travels and daily life to design programs. All
+                        programs are brainstormed by the kids of BKPA, with guidance, oversight, and operational support
+                        from our adult members, teachers, and families. All members participate in our charitable events
+                        and other programs as volunteers. We believe part of our duty as global citizens is to give back
+                        to our communities and assist those in difficult circumstances.
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <b>International Technology for Self Sufficiency and Career Education</b>
+                    </div>
+                    <ul>
+                        <li>Self Sufficiency
+                            <ul>
+                                <li>Learn about locations and communities</li>
+                                <li>Visit locations and communities in person</li>
+                                <li>Collect material and financial donations</li>
+                                <li>Transport material donations</li>
+                                <li>Maintain contact with BKPA Gives program recipients</li>
+                            </ul>
+                        </li>
+                        <li>Career Education
+                            <ul>
+                                <li>Learn about locations and communities</li>
+                                <li>Connect with teachers and other local partners</li>
+                                <li>Collect material and financial donations</li>
+                                <li>Transport material donations to career education schools</li>
+                                <li>Maintain contact with BKPA Gives program recipients</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <b>Fund Sharing</b>
+                    </div>
+                    <ul>
+                        <li>Scholarship Fund in Partnership with Poets Foundation
+                            <ul>
+                                <li>Currently funds 12 scholarships for students in middle school, high school, and college</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <b>Drives</b>
+                    </div>
+                    <ul>
+                        <li>Kids' Shoes and Clothes
+                            <ul>
+                                <li>Transport donations</li>
+                                <li>Distribute through personal connections with individuals in need</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <b>Events</b>
+                    </div>
+                    <ul>
+                        <li>Performances in Assisted Living Facilities</li>
+                        <li>March of Dimes</li>
+                        <li>Autism Walk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-    <section id="emag" class="services  bg-info">
+    <section id="emag" class="services subpage">
         <div class="container">
             <div class="row text-center">
                 <div id='EMag'>
@@ -550,7 +679,7 @@
         </div>
     </section>
 
-    <section id="sponsors" class="services">
+    <section id="sponsors" class="services subpage">
         <div class="container">
             <div class="row text-center">
                 <div id=''>
@@ -586,7 +715,7 @@
         </div>
     </section>
 
-    <section id="ProgramAbroad" class="services bg-info">
+    <section id="ProgramAbroad" class="services subpage">
         <div class="container">
             <div class="row text-center">
                 <div id=''>
@@ -594,21 +723,22 @@
                     <br/>
 
                     <p>
-                            We can help you have experiences of a lifetime in two different areas:
-                            <br><br>
-                            <b>Charitable Work </b>– Volunteer at unique places and participate in meaningful community service.
-                            For example, past BKPA members have travelled to volunteer at Mother Theresa’s Orphanage
-                            in Kolkata. BKPA encourages members volunteering there to meet fellow young adults both at
-                            the orphanage and outside of it, building relationships and giving plans based on their needs,
-                            which often go beyond the scope of the orphanage once kids turn 18. BKPA Gives’ Technology
-                            for Self Sufficiency is one such program. See the BKPA Gives page for more information.
+                        We can help you have experiences of a lifetime in two different areas:
+                        <br>
+                        <br>
+                        <b>Charitable Work </b>– Volunteer at unique places and participate in meaningful community service.
+                        For example, past BKPA members have travelled to volunteer at Mother Theresa’s Orphanage in Kolkata.
+                        BKPA encourages members volunteering there to meet fellow young adults both at the orphanage and
+                        outside of it, building relationships and giving plans based on their needs, which often go beyond
+                        the scope of the orphanage once kids turn 18. BKPA Gives’ Technology for Self Sufficiency is one
+                        such program. See the BKPA Gives page for more information.
 
                     </p>
                 </div>
             </div>
         </div>
-        </section>
-        <section id="links" class="services">
+    </section>
+    <section id="links" class="services subpage">
         <div class="container">
             <div class="row text-center">
                 <div id=''>
