@@ -1,0 +1,19 @@
+{
+  "name": "startbootstrap-stylish-portfolio",
+  "version": "1.0.0",
+  "description": "[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smchow/startbootstrap-stylish-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smchow/startbootstrap-stylish-portfolio/issues"
+  },
+  "homepage": "https://github.com/smchow/startbootstrap-stylish-portfolio#readme"
+}

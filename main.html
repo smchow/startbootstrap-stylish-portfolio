@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1" />
+    <title>BKPA</title>
+
+    <meta name="Description" content="Bengali Kids of Princeton Area" />
+    <meta name="keywords" content="" />
+    <meta name="theme-color" content="#AF1700" />
+    <meta name="background_color" content="#AF1700" />
+    <link rel="manifest" href="resources/manifest.json">
+    <link rel="shortcut icon" href="images/BKPALogo.PNG">
+
+    <!-- CSS -->
+    <link href="bootstrap/bootstrap.css" type="text/css" rel="stylesheet" />
+    <style>
+        .carousel img {
+            max-height: 70vh;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .section {
+            margin: 2% 6%
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark breaker-nav" style="background-color: #d34615">
+        <a class="navbar-brand" href="/">
+            <img class="icon" src="images/BKPALogo.PNG" style="max-width:50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about" onclick="setpage('index')">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="setpage('events')">Events</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#bhc">Classes</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#bkpaGives">BKPA Gives</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#emag">eMagazine</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sponsors">Sponsors</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#links">Links</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
