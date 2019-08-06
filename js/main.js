@@ -1,21 +1,17 @@
 var links = {
     "index": "index.html",
-    "events": "pages/events.html"
+    "events": "pages/events.html",
+    "gives" : "pages/gives.html",
+    "res" : "pages/res.html",
+    "sponsors" : "pages/sponsors.html",
+    "contact" : "pages/contact.html"
 }
 var page;
 var contents;
+setpage(document.URL.substring(document.URL.lastIndexOf('#') + 1));
 function setpage(curpage) {
     page = curpage;
-    console.log(page);
     getFile(links[page]);
-    // if ('index' === page) {
-    //     getFile("../index.html");
-    //     // document.getElementById('content').innerHTML = content;
-    // }
-    // if ('events' === page) {
-    //     getFile("../pages/events.html");
-    //     // document.getElementById('content').innerHTML = "<h1>Events</h1>"
-    // }
 }
 
 function getFile(file) {
