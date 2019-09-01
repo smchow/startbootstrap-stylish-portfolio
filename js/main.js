@@ -5,8 +5,8 @@ var links = {
     "classes": "pages/events.html#classes",
     "gives" : "pages/gives.html",
     "res" : "pages/res.html",
-    "sponsors" : "pages/sponsors.html",
-    "contact" : "pages/contact.html"
+    "sponsors" : "pages/contact.html",
+    "contact" : "pages/contact.html#contact"
 };
 
 var page = document.URL.substring(document.URL.lastIndexOf('#') + 1);

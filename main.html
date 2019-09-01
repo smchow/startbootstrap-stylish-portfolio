@@ -17,11 +17,16 @@
     <!-- CSS -->
     <link href="bootstrap/bootstrap.css" type="text/css" rel="stylesheet" />
     <style>
+        .carousel-item {
+            background-color: black;
+        }
+
         .carousel img {
-            max-height: 70vh;
+            max-height: 85vh;
             width: 100%;
             height: 100%;
             object-fit: cover;
+            opacity: .8;
         }
 
         .section {
@@ -49,19 +54,16 @@
                     <a class="nav-link" href="#events" onclick="setpage('events')">Events</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#classes">Classes</a>
+                    <a class="nav-link" href="#classes" onclick="setpage('classes')">Classes</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#gives" onclick="setpage('gives')">BKPA Gives</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#emag">eMagazine</a>
+                    <a class="nav-link" href="#res" onclick="setpage('res')">Resources</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#sponsors" onclick="setpage('sponsors')">Sponsors</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#links">Links</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#contact" onclick="setpage('contact')">Contact Us</a>
