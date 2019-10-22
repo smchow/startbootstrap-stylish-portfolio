@@ -1,6 +1,6 @@
 var links = {
-    "index": "pages/index.html",
-    "about": "pages/index.html",
+    "index": "pages/main.html",
+    "about": "pages/main.html",
     "events": "pages/events.html",
     "classes": "pages/events.html#classes",
     "gives" : "pages/gives.html",
